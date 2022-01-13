@@ -125,7 +125,7 @@ library(lubridate)
 library(tidyverse)
 
 # folders with results //change this path//
-DFOLDER <- "C:/Users/fxtrams/Documents/000_TradingRepo/FALCON_D/TS"
+DFOLDER <- "C:\Users\devin\Documents\Trading_Repository\FALCON_D\TS"
 
 DFR <- opt_aggregate_results(DFOLDER)
 
