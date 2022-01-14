@@ -1,0 +1,3 @@
+" ; common settings"
+"Profile=Falcon_D"
+"MarketWatch=Falcon_D_Test.set"
