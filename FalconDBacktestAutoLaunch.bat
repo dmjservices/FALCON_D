@@ -4,5 +4,4 @@ rem *************************************************
 
 ping localhost -n 5
 
-start "1" "C:\Oanda - Terminals\OANDA - MetaTrader Portable - (4)\terminal.exe" "C:\Oanda - Terminals\OANDA - MetaTrader Portable - (4)\config\AUTO_BACKTEST\settings_falcond.ini"
-pause
+start "1" "C:\Oanda - Terminals\OANDA - MetaTrader Portable - (4)\terminal portable 4" "C:\Oanda - Terminals\OANDA - MetaTrader Portable - (4)\config\AUTO_BACKTEST\settings_falcond.ini"
