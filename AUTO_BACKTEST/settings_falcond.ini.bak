@@ -1,48 +1,58 @@
- ; common settings
-  Profile=TradesControl
-  ;MarketWatch=set2.set
-  ;Login=1234567
-  ;Password=xxxxxxxx
-  ;Server=FxPro.com-Demo04
-  AutoConfiguration=false
-  ;DataServer=192.168.0.1:443
-  ;EnableDDE=true
-  ;EnableNews=false
-  
-  ; proxy settings
-  ;ProxyEnable=true
-  ;ProxyServer=proxy.company.com:3128
-  ;ProxyType=HTTP
-  ;ProxyLogin=user45
-  ;ProxyPassword=xxx
-  
-    ; experts settings
-  ;ExpertsEnable=false
-  ;ExpertsDllImport=false
-  ;ExpertsExpImport=false
-  ;ExpertsTrades=false
-  
-    ; open chart and run expert and/or script
-  ;Symbol=EURUSD
-  ;Period=H4
-  ;Template=popular.tpl
-  ;Expert=MACD Sample
-  ;ExpertParameters=macd.set
-  ;Script=period_converter
-  ;ScriptParameters==per_conv.set
-  
-    ; start strategy tester
-  TestExpert=FALCON_D\Falcon_D
-  TestExpertParameters=Falcon_D.set
-  TestSymbol=EURUSD
-  TestPeriod=H1
-  TestModel=2
-  TestSpread=20
-  ;TestOptimization=false
-  TestOptimization=true
-  TestDateEnable=true
-  TestFromDate=2019.08.21
-  TestToDate=2019.12.21
-  TestReport=tester\FalconDReport_EURUSD
-  TestReplaceReport=false
-  TestShutdownTerminal=true
+"; Macro adjustment Settings for Optimization" 
+ 
+";Test from Date adjustment" 30
+";Test to Date adjustment" 1
+ 
+"    ; start strategy tester" 
+"  TestExpert=" FALCON_D\Falcon_D
+"  TestExpertParameters=" Falcon_D_Test_EURUSD.set
+"  TestSymbol=" EURUSD
+"  TestPeriod=" H1
+"  TestModel=" 2
+"  TestSpread=" 20
+"  TestOptimization=" TRUE
+"  TestDateEnable=" TRUE
+"  TestFromDate=" 2021.12.15
+"  TestToDate=" 2022.01.13
+"  ;TestReport=" tester\FalconDReport_EURUSD
+"  TestReport=" tester\Falcon_D_Test_EURUSD
+"  TestReplaceReport=" FALSE
+"  TestShutdownTerminal=false" FALSE
+ 
+ 
+
+ 
+ 
+" ; common settings" 
+" ; Profile=" TradesControl
+"  ;MarketWatch=" set2.set
+"  ;Login=1234567" 
+"  ;Password=xxxxxxxx" 
+"  ;Server=FxPro.com-Demo04" 
+"  AutoConfiguration=" FALSE
+"  ;DataServer=192.168.0.1:443" 
+"  ;EnableDDE=true" 
+"  ;EnableNews=false" 
+"  " 
+"  ; proxy settings" 
+"  ;ProxyEnable=true" 
+"  ;ProxyServer=proxy.company.com:3128" 
+"  ;ProxyType=HTTP" 
+"  ;ProxyLogin=user45" 
+"  ;ProxyPassword=xxx" 
+"  " 
+"    ; experts settings" 
+"  ;ExpertsEnable=false" 
+"  ;ExpertsDllImport=false" 
+"  ;ExpertsExpImport=false" 
+"  ;ExpertsTrades=false" 
+"  " 
+"    ; open chart and run expert and/or script" 
+"  ;Symbol=EURUSD" 
+"  ;Period=H4" 
+"  ;Template=popular.tpl" 
+"  ;Expert=MACD Sample" 
+"  ;ExpertParameters=macd.set" 
+"  ;Script=period_converter" 
+"  ;ScriptParameters==per_conv.set" 
+"  " 
