@@ -1,0 +1,9 @@
+rem *************************************************
+rem *** This starts the terminals after waiting 30 seconds ***
+rem *************************************************
+
+ping localhost -n 5
+
+start "1" "C:\Program Files (x86)\FxPro - Terminal4\terminal.exe" /portable 
+
+"C:\Users\fxtrams\Documents\000_TradingRepo\FALCON_D\AUTO_BACKTEST\settings_falcond.ini"
